@@ -7,14 +7,27 @@ body {
 
 
 #header-nav {
-    color: red;
+    background-color: lightgray;
     border-radius: 0;
     border: 0;
 }
 
+
+#collapsable-nav{
+  background-color: lightpink;
+  border: 1px black;
+  clear: both;
+}
+
+#collapsable-nav span{
+  color: blue;
+}
+
 .navbar-brand {
   padding-top: 25px;
+  margin-bottom: 15px;
 }
+
 
 .navbar-brand h1 { /*Site Name*/
   font-family: 'Oxygen', sans-serif;
@@ -31,10 +44,25 @@ body {
   text-decoration: none;
 }
 
-#nav-list a{
-    text-align: center;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
 #nav-list a:hover {
   background: #E7E7E7;
 }
@@ -42,4 +70,26 @@ body {
 #page-title{
   font-weight: bold;
   text-shadow: 1px 1px 1px #777;
+}
+
+#chicken{
+  height: 1000px;
+  background-color: gray;
+}
+
+#beef{
+  height: 700px;
+  background-color: brown;
+}
+
+#sushi{
+  height: 700px;
+  background-color: yellow;
+}
+
+.return-link{
+  position: absolute;
+  bottom: 5px;
+  color: red;
+  padding-left: 5px;
 }

@@ -9,18 +9,26 @@ body {
 #header-nav {
     background-color: lightgray;
     border-radius: 0;
-    border: 0;
 }
 
 
 #collapsable-nav{
   background-color: lightpink;
-  border: 1px black;
   clear: both;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
 }
 
 #collapsable-nav span{
   color: blue;
+}
+
+#nav-list{
+  padding: 0;
+  margin: 0px 0px 0px 0px;
 }
 
 .navbar-brand {
@@ -55,13 +63,12 @@ body {
 
 .nav li{
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
 }
 
-#nav-list {
+/*#nav-list {
   margin-top: 10px;
 
-}
+}*/
 #nav-list a {
   color: #951C49;
   text-align: center;
